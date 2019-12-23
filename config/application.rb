@@ -20,7 +20,7 @@ module MyApp
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'https://agile-shore-02575.herokuapp.com/'
+        origins '*'
         resource '*', headers: :any, methods: [:get, :post, :put, :delete, :options]
       end
     end
