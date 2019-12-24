@@ -6,6 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-tasks = Task.create([{ title: 'Title 1', description: 'Description 1', is_deleted: false }, { title: 'Title 2', description: 'Description 2', is_deleted: false }])
-
 tags = Tag.create([{title: 'None', is_deleted: false}, {title: 'Home', is_deleted: false}, {title: 'School', is_deleted: false}, {title: 'Work', is_deleted: false}])
