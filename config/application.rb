@@ -24,5 +24,7 @@ module MyApp
         resource '*', headers: :any, methods: [:get, :post, :put, :delete, :options]
       end
     end
+
+    config.autoload_paths << Rails.root.join('lib')
   end
 end
